@@ -1,5 +1,6 @@
 import React from 'react'
 import CategoriesSlider from '@/components/Categories/CategoriesSlider'
+import Filter from '@/components/Filters/Filter'
 import MainCard from '@/components/Cards/MainCard'
 import HomeAdWide from '@/components/Banners/Ads/HomeAdWide'
 import MainCardSkeleton from '@/components/Skeletons/MainCardSkeleton'
@@ -12,7 +13,10 @@ const page = () => {
 
   return (
     <>
+    <div className='flex items-baseline justify-between pt-3 lg:pt-4'>
     <CategoriesSlider/>
+    <Filter/>
+    </div>
     <div className='my-4 lg:my-6 grid grid-cols-1 lg:grid-cols-4 xl:grid-cols-5 gap-2 lg:gap-5'>
      {nodata &&
      <>

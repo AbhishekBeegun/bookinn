@@ -1,11 +1,11 @@
 import React from 'react'
 import Image from 'next/image'
 
-import DiscountBadge from './component/DiscountBadge'
-import MemberDiscount from './component/MemberDiscount'
-import WishBtn from './component/WishBtn'
+import DiscountBadge from './components/DiscountBadge'
+import MemberDiscount from './components/MemberDiscount'
+import WishBtn from './components/WishBtn'
 import Link from 'next/link'
-import SponsoredBadge from './component/SponsoredBadge'
+import SponsoredBadge from './components/SponsoredBadge'
 
 const MainCard = ({item ,index}) => {
   return (

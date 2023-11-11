@@ -42,9 +42,9 @@ const CategoriesSlider = () => {
         }
       ]
   return (
-    <div className='flex gap-5 lg:gap-10 items-center pt-3 overflow-scroll'>
+    <div className='flex gap-5 lg:gap-10 items-center overflow-scroll'>
     {CatLinks.map( (item , index) => (
-    <Link key={index} href={"£"} className='flex flex-col items-center justify-between gap-1 lg:gap-2 text-slate-500 hover:text-black'>
+    <Link key={index} href={"£"} className='flex flex-col items-center justify-between gap-1 text-slate-500 hover:text-black'>
      <Image className='object-fit hidden lg:block' src={item.icon} width={25} height={25} alt={item.text} />
      <Image className='object-fit lg:hidden' src={item.icon} width={20} height={20} alt={item.text} />
      <p className='text-xxs lg:text-sm whitespace-nowrap font-medium'>{item.text}</p>
