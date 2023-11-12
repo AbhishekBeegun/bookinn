@@ -8,9 +8,10 @@ import SearchBarHome from '@/components/Search/SearchBarHome'
 
 const page = () => {
 
-    const data = [1,2,3,4,5,6,7,8];
+    const data = [1,2,3,4,5,6,7,8,9,10];
 
     const nodata = data.length == 0;
+    
 
   return (
     <>
