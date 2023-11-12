@@ -7,7 +7,7 @@ const BookBtn = () => {
     <div className='flex flex-col'>
 
      <div className='flex items-baseline gap-1 '>
-        <p className='font-semibold '>Rs 5571 <span className='text-xs line-through text-slate-400'>Rs 6000</span></p>
+        <p className='font-semibold '>Rs 5571 <span className='text-xxs line-through text-slate-400'>Rs 6000</span></p>
         <p className='text-xxs'>per night</p>
      </div>
 
