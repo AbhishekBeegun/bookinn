@@ -17,7 +17,7 @@ const SearchBarFake = () => {
   return (
    <Sheet>
     <SheetTrigger
-     className='hidden lg:flex items-center justify-center gap-8 px-6 py-2 bg-white shadow border rounded-full text-black text-sm font-medium'>
+     className='hidden lg:flex items-center justify-center gap-8 px-6 py-1 bg-white shadow border rounded-full text-black text-sm font-medium'>
        <p>Region</p>
        <p>Date</p>
        <p>No Person</p>

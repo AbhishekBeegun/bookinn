@@ -4,6 +4,7 @@ import Filter from '@/components/Filters/Filter'
 import MainCard from '@/components/Cards/MainCard'
 import HomeAdWide from '@/components/Banners/Ads/HomeAdWide'
 import MainCardSkeleton from '@/components/Skeletons/MainCardSkeleton'
+import SearchBarHome from '@/components/Search/SearchBarHome'
 
 const page = () => {
 
@@ -17,6 +18,9 @@ const page = () => {
     <CategoriesSlider/>
     <Filter/>
     </div>
+
+
+    <SearchBarHome/>
     <div className='my-4 lg:my-6 grid grid-cols-1 lg:grid-cols-4 xl:grid-cols-5 gap-2 lg:gap-5'>
      {nodata &&
      <>

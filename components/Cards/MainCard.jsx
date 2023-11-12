@@ -9,7 +9,8 @@ import SponsoredBadge from './components/SponsoredBadge'
 
 const MainCard = ({item ,index}) => {
   return (
-    <div key={index} className='flex flex-col'>
+    
+    <Link href={`/hotel/${index}`} key={index} className='flex flex-col'>
     <div className='relative rounded-lg bg-slate-200 h-[150px]  lg:h-[200px]  xl:h-[250px] shadow' >
      <Image className='rounded-lg hover:border-2 hover:border-white' src="https://a0.muscache.com/im/pictures/prohost-api/Hosting-834441903532854078/original/103ec088-f215-4f14-9fbe-de5c89c94075.jpeg" layout='fill'
      objectFit='cover' alt='' />
@@ -40,7 +41,7 @@ const MainCard = ({item ,index}) => {
         </div>
 
     </div>
-    </div>
+    </Link>
   )
 }
 
