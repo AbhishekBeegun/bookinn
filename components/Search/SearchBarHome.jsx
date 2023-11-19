@@ -72,56 +72,56 @@ const SearchBarHome = () => {
       <DropdownMenuContent>
         <DropdownMenuLabel className='text-base px-4 py-2'>Search by Region</DropdownMenuLabel>
         <DropdownMenuSeparator />
-        <div className='grid grid-cols-3'>
-          <DropdownMenuItem>
+        <div className='grid grid-cols-3 gap-3 px-4 py-2'>
+          <DropdownMenuItem className='p-0'>
           <div onClick={() => setRegion('Pamplemousse')} className='h-[120px] cursor-pointer relative rounded-lg w-[120px] bg-blue-500 overflow-hidden'>
             <img className='object-fit scale-150 grayscale hover:grayscale-0' src='https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Pamplemousses_in_Mauritius.svg/500px-Pamplemousses_in_Mauritius.svg.png'/>
             <p className='absolute bottom-2 left-1 font-semibold text-sm'>Pamplemousse</p>
           </div>
           </DropdownMenuItem>
-          <DropdownMenuItem>
+          <DropdownMenuItem className='p-0'>
           <div onClick={() => setRegion('Riviere du Rempart')} className='h-[120px] cursor-pointer relative rounded-lg w-[120px] bg-blue-500 overflow-hidden'>
             <img className='object-fit scale-150 grayscale hover:grayscale-0' src='https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Riviere_du_Rempart_in_Mauritius.svg/500px-Riviere_du_Rempart_in_Mauritius.svg.png'/>
             <p className='absolute bottom-2 left-1 font-semibold text-sm'>Riviere du Rempart</p>
           </div>
           </DropdownMenuItem>
-          <DropdownMenuItem>
+          <DropdownMenuItem className='p-0'>
           <div onClick={() => setRegion('Port Louis')} className='h-[120px] cursor-pointer relative rounded-lg w-[120px] bg-blue-500 overflow-hidden'>
             <img className='object-fit scale-150 grayscale hover:grayscale-0' src='https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Port_Louis_in_Mauritius.svg/500px-Port_Louis_in_Mauritius.svg.png'/>
             <p className='absolute bottom-2 left-1 font-semibold text-sm'>Port Louis</p>
           </div>
           </DropdownMenuItem>
-          <DropdownMenuItem>
+          <DropdownMenuItem className='p-0'>
           <div onClick={() => setRegion('Moka')} className='h-[120px] cursor-pointer relative rounded-lg w-[120px] bg-blue-500 overflow-hidden'>
             <img className='object-fit scale-150 -translate-y-14 grayscale hover:grayscale-0' src='https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Moka_in_Mauritius.svg/500px-Moka_in_Mauritius.svg.png'/>
             <p className='absolute bottom-2 left-1 font-semibold text-sm'>Moka</p>
           </div>
           </DropdownMenuItem>
-          <DropdownMenuItem>
+          <DropdownMenuItem className='p-0'>
           <div onClick={() => setRegion('Flacq')} className='h-[120px] cursor-pointer relative rounded-lg w-[120px] bg-blue-500 overflow-hidden'>
             <img className='object-fit scale-150 -translate-y-14 grayscale hover:grayscale-0 -translate-x-6' src='https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Flacq_in_Mauritius.svg/500px-Flacq_in_Mauritius.svg.png'/>
             <p className='absolute bottom-2 left-1 font-semibold text-sm'>Flacq</p>
           </div>
           </DropdownMenuItem>
-          <DropdownMenuItem>
+          <DropdownMenuItem className='p-0'>
           <div onClick={() => setRegion('Black River')} className='h-[120px] cursor-pointer relative rounded-lg w-[120px] bg-blue-500 overflow-hidden'>
             <img className='object-fit scale-150 -translate-y-20 translate-x-6 grayscale hover:grayscale-0' src='https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Black_River_in_Mauritius.svg/500px-Black_River_in_Mauritius.svg.png'/>
             <p className='absolute bottom-2 left-1 font-semibold text-sm'>Black River</p>
           </div>
           </DropdownMenuItem>
-          <DropdownMenuItem>
+          <DropdownMenuItem className='p-0'>
           <div onClick={() => setRegion('Plaine Wilhems')} className='h-[120px] cursor-pointer relative rounded-lg w-[120px] bg-blue-500 overflow-hidden'>
             <img className='object-fit scale-150 -translate-y-20 translate-x-6 grayscale hover:grayscale-0' src='https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Plaines_Wilhems_in_Mauritius.svg/500px-Plaines_Wilhems_in_Mauritius.svg.png'/>
             <p className='absolute bottom-2 left-1 font-semibold text-sm'>Plaine Wilhems</p>
           </div>
           </DropdownMenuItem>
-          <DropdownMenuItem>
+          <DropdownMenuItem className='p-0'>
           <div onClick={() => setRegion('Grand Port')} className='h-[120px] cursor-pointer relative rounded-lg w-[120px] bg-blue-500 overflow-hidden'>
             <img className='object-fit scale-150 -translate-y-20 grayscale hover:grayscale-0' src='https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Grand_Port_in_Mauritius.svg/500px-Grand_Port_in_Mauritius.svg.png'/>
             <p className='absolute bottom-2 left-1 font-semibold text-sm'>Grand Port</p>
           </div>
           </DropdownMenuItem>
-          <DropdownMenuItem>
+          <DropdownMenuItem className='p-0'>
           <div onClick={() => setRegion('Savanne')} className='h-[120px] cursor-pointer relative rounded-lg w-[120px] bg-blue-500 overflow-hidden'>
             <img className='object-fit scale-150 -translate-y-20 grayscale hover:grayscale-0' src='https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Savanne_in_Mauritius.svg/500px-Savanne_in_Mauritius.svg.png'/>
             <p className='absolute bottom-2 left-1 font-semibold text-sm'>Savanne</p>
